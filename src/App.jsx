@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   BrowserRouter as Router,
   Routes,
   Route,
+  useLocation,
 } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
@@ -16,14 +17,30 @@ import About from "./pages/About";
 import Memories from "./pages/Memories";
 import MyWorld from "./pages/MyWorld";
 
+// Helper component to scroll to top on route change
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant"
+    });
+  }, [pathname]);
+
+  return null;
+}
+
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen bg-gradient-to-br from-[#faf5ff] via-[#f3e8ff] to-[#fce7f3] flex flex-col relative">
 
         <BackgroundEffects />
 
-        <div className="relative z-10 flex flex-col min-h-screen">
+        <div className="relative z-15 flex flex-col min-h-screen">
 
           {/* Fixed Navbar */}
           <Navbar />
