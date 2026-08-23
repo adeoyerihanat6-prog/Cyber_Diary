@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  /* Core Cyber Diary colors */
+  --color-cyber-plum: #2d2335;
+  --color-cyber-dark: #1e1b24;
+
+  /* Soft accent colors */
+  --color-cyber-lilac: #d8b4fe;
+  --color-cyber-mauve: #b388eb;
+  --color-cyber-rose: #f472b6;
+  --color-cyber-pink: #fbcfe8;
+  --color-cyber-cream: #faf5ff;
+
+  /* Fonts */
+  --font-cursive: "Dancing Script", cursive;
+  --font-sans: "Quicksand", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Shadows */
+  --shadow-glass: 0 8px 32px 0 rgba(45, 35, 53, 0.12);
+  --shadow-glow: 0 0 25px rgba(244, 114, 182, 0.2);
+}
+
+/* Base */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  background: linear-gradient(
+    135deg,
+    #faf5ff 0%,
+    #f3e8ff 50%,
+    #fce7f3 100%
+  );
+
+  color: #2d2335;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Make links inherit the site's typography */
+a {
+  text-decoration: none;
+}
+
+/* Better text selection */
+::selection {
+  background: #d8b4fe;
+  color: #2d2335;
+}
+
+/* Smooth scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(179, 136, 235, 0.45);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(179, 136, 235, 0.7);
+}
