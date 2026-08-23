@@ -11,7 +11,7 @@ import BackgroundEffects from "./components/BackgroundEffect";
 
 import Home from "./pages/Home";
 import Diary from "./pages/Diary";
-import FanPage from "./pages/FanPage";
+import FanPage from "./pages/Fanpage";
 import About from "./pages/About";
 import Memories from "./pages/Memories";
 import MyWorld from "./pages/MyWorld";
