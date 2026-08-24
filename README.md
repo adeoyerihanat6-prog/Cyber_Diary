@@ -59,11 +59,253 @@ A space for thoughts, stories, random experiences and little things I don't want
 
 It's basically my digital notebook.
 
-```text
-thought
-   ↓
-memory
-   ↓
-diary entry
-   ↓
-saved forever ✨
+    thought
+       ↓
+    memory
+       ↓
+    diary entry
+       ↓
+    saved forever ✨
+
+---
+
+### 💗 Things I Like
+
+A collection of things currently occupying my brain.
+
+Music, aesthetics, shows, books, random obsessions and whatever else happens to catch my attention.
+
+Basically:
+
+> Things I like right now. Subject to change. 😭
+
+---
+
+### 🌎 My World
+
+A playful little page about the things that make up my world.
+
+No serious portfolio energy here.
+
+Just personality, randomness and vibes.
+
+---
+
+### 📸 Memories
+
+A visual collection of little moments.
+
+Instead of filling every picture with unnecessary descriptions, this page focuses on the memories themselves.
+
+Think:
+
+    digital scrapbook
+            +
+    pretty pictures
+            +
+    little moments
+
+---
+
+### 🌸 About
+
+A small introduction to the person behind the website.
+
+Not a formal biography.
+
+Just little pieces of personality, random facts, moods and things that make the website feel more personal.
+
+---
+
+## 🎨 The Aesthetic
+
+The website combines a soft dreamy aesthetic with subtle cyber/terminal elements.
+
+The overall vibe is:
+
+    soft
+      +
+    dreamy
+      +
+    girly
+      +
+    digital diary
+      +
+    tiny bit of cyber
+      +
+    late-night internet corner
+
+### Design elements
+
+- Glassmorphism
+- Soft gradients
+- Rounded cards
+- Blurred backgrounds
+- Pastel colors
+- Floating decorative elements
+- Smooth animations
+- Terminal-inspired details
+- Playful typography
+- Interactive cards
+
+---
+
+## 🛠️ Built With
+
+### Frontend
+
+- React
+- Vite
+- React Router
+- Tailwind CSS
+
+### Animations
+
+- Framer Motion
+
+### Icons
+
+- Lucide React
+
+---
+
+## 📂 Project Structure
+
+    src/
+    │
+    ├── components/
+    │   ├── Navbar.jsx
+    │   ├── Footer.jsx
+    │   └── BackgroundEffect.jsx
+    │
+    ├── pages/
+    │   ├── Home.jsx
+    │   ├── Diary.jsx
+    │   ├── FanPage.jsx
+    │   ├── MyWorld.jsx
+    │   ├── Memories.jsx
+    │   └── About.jsx
+    │
+    ├── App.jsx
+    └── main.jsx
+
+---
+
+## 🚀 Run It Locally
+
+Clone the repository:
+
+    git clone YOUR_GITHUB_REPOSITORY_URL
+
+Move into the project folder:
+
+    cd cyber-diary
+
+Install dependencies:
+
+    npm install
+
+Start the development server:
+
+    npm run dev
+
+Then open the local URL provided by Vite.
+
+---
+
+## 🌱 Why I Made This
+
+I wanted to build something that wasn't trying too hard to be useful or impressive.
+
+Just something fun.
+
+Something I could experiment with.
+
+Something I could make prettier whenever I got a random idea.
+
+Something that could hold little pieces of my life.
+
+So...
+
+I made myself a little corner of the internet.
+
+🌷
+
+---
+
+## 💭 A Little Note
+
+This website is constantly evolving.
+
+Pages might change.
+
+Designs might change.
+
+New random ideas will probably appear.
+
+Something will almost certainly get redesigned at 2AM.
+
+And honestly?
+
+That's part of the fun.
+
+---
+
+## ✨ Current Status
+
+    const cyberDiary = {
+      status: "alive",
+      finished: false,
+      ideas: Infinity,
+      vibe: "still figuring it out",
+    };
+
+---
+
+## 🌸 Future Ideas
+
+Things that might eventually find their way into this little corner:
+
+- More diary entries
+- More memories
+- More interactive elements
+- More tiny animations
+- More random thoughts
+- More pretty things
+- Probably something completely unnecessary 😂
+
+---
+
+## 📸 Preview
+
+Add screenshots of the website here if you want.
+
+### Home
+
+![Home Preview](./screenshots/home.png)
+
+### Memories
+
+![Memories Preview](./screenshots/memories.png)
+
+### Diary
+
+![Diary Preview](./screenshots/diary.png)
+
+---
+
+## 💌 Final Note
+
+This isn't meant to be perfect.
+
+It's meant to be mine.
+
+A small digital space made from random ideas, curiosity, creativity and way too much screen time.
+
+Thanks for visiting my little corner of the internet. 🌷✨
+
+---
+
+Made with curiosity, random ideas & probably too much screen time.
+
+**— Rihannah**
