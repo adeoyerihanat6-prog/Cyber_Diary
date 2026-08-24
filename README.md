@@ -2,8 +2,8 @@
 
 > A tiny corner of the internet where random thoughts, memories, pretty things, and little pieces of life live.
 
-[![Live Website](https://img.shields.io/badge/🌐%20Live%20Website-Visit%20Cyber%20Diary-A855F7?style=for-the-badge)](YOUR_LIVE_WEBSITE_URL)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](YOUR_GITHUB_REPOSITORY_URL)
+[![Live Website](https://img.shields.io/badge/🌐%20Live%20Website-Visit%20Cyber%20Diary-A855F7?style=for-the-badge)](https://cyberdiary.vercel.app)
+[![GitHub](https://img.shields.io/badge/https://github.com/adeoyerihanat6-prog/Cyber_Diary-181717?style=for-the-badge&logo=github)](https://github.com/adeoyerihanat6-prog/Cyber_Diary)
 
 ---
 
@@ -195,8 +195,7 @@ The overall vibe is:
 
 Clone the repository:
 
-    git clone YOUR_GITHUB_REPOSITORY_URL
-
+    git clone https://github.com/adeoyerihanat6-prog/Cyber_Diary
 Move into the project folder:
 
     cd cyber-diary
@@ -276,23 +275,6 @@ Things that might eventually find their way into this little corner:
 
 ---
 
-## 📸 Preview
-
-Add screenshots of the website here if you want.
-
-### Home
-
-![Home Preview](./screenshots/home.png)
-
-### Memories
-
-![Memories Preview](./screenshots/memories.png)
-
-### Diary
-
-![Diary Preview](./screenshots/diary.png)
-
----
 
 ## 💌 Final Note
 
