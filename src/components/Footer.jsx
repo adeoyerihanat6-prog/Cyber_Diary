@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           
-          {/* Identity */}
+         
           <div className="flex items-center gap-2">
             <Terminal className="w-4 h-4 text-cyber-mauve" />
 
@@ -20,7 +20,7 @@ export default function Footer() {
             </span>
           </div>
 
-          {/* Tech Stack */}
+          
           <div className="flex items-center gap-3">
             <span className="font-mono text-[10px] text-cyber-plum/40">
               built_with

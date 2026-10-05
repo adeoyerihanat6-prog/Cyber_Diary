@@ -1,13 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import {
-  Sparkles,
-  BookOpen,
-  Heart,
-  User,
-  Camera,
-  FolderGit2,
-} from "lucide-react";
+import {Sparkles, BookOpen, Heart, User, Camera, FolderGit2,} from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function Navbar() {
